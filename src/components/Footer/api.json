@@ -1,0 +1,61 @@
+{
+  "footerNavigatorL1S": [
+    {
+      "id": "1",
+      "title": "關於我們",
+      "footerNavigatorL2S": [
+        {
+          "id": "1",
+          "title": "影城介紹",
+          "url": "https://example.com/cinema"
+        },
+        {
+          "id": "2",
+          "title": "電影介紹",
+          "url": "https://example.com/movie"
+        },
+        {
+          "id": "3",
+          "title": "餐飲與商品",
+          "url": "https://example.com/meals"
+        },
+        {
+          "id": "4",
+          "title": "隱私權",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "企業合作",
+      "footerNavigatorL2S": [
+        {
+          "id": "5",
+          "title": "贊助廠商",
+          "url": ""
+        },
+        {
+          "id": "6",
+          "title": "企業專區",
+          "url": ""
+        },
+        {
+          "id": "7",
+          "title": "合作提案",
+          "url": "https://example.com/proposal"
+        },
+        {
+          "id": "8",
+          "title": "聯絡我們",
+          "url": "https://example.com/contact-us"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "精選影評",
+      "footerNavigatorL2S": []
+    }
+  ]
+}

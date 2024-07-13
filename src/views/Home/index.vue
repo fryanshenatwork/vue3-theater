@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import SeatSelector from '@/components/SeatSelector/index.vue'
 import Seat from '@/components/SeatSelector/Seat.vue'
+import Footer from '@/components/Footer/index.vue'
 
 const selectedSeats = ref([90])
 
@@ -23,14 +24,22 @@ const selectedSeats = ref([90])
         :amount="1"
       />
     </div>
+
+    <Footer />
   </div>
 </template>
 
 <style scoped lang="scss">
 .home {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+
   .seat-selector {
     width: 472px;
     margin: 0 auto;
+    padding: 2.5em 0;
   }
   h3{
     font-size: 1.2em;
